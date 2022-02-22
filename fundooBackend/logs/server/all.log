@@ -1,0 +1,710 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-19T03:26:30.930Z"}
+info: Connected to the database. {"timestamp":"2022-02-19T03:26:33.625Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-19T11:10:12.389Z"}
+info: Connected to the database. {"timestamp":"2022-02-19T11:10:12.402Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T02:25:58.008Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"Error: \n    at new MongooseError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/mongooseError.js:7:1)\n    at new MongooseServerSelectionError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/serverSelection.js:26:1)\n    at NativeConnection.Connection.openUri (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/connection.js:847:32)\n    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/index.js:351:10\n    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/index.js:1149:10)","timestamp":"2022-02-21T02:26:28.009Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.find()` buffering timed out after 10000ms
+    at new MongooseError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at Timeout._onTimeout (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7) 
+    url - /api/v1/users 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-21T03:00:00.844Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.find()` buffering timed out after 10000ms
+    at new MongooseError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at Timeout._onTimeout (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7) 
+    url - /api/v1/users 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-21T03:00:25.370Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.find()` buffering timed out after 10000ms
+    at new MongooseError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at Timeout._onTimeout (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7) 
+    url - /api/v1/users 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-21T03:01:00.887Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.find()` buffering timed out after 10000ms
+    at new MongooseError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at Timeout._onTimeout (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7) 
+    url - /api/v1/users 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-21T03:03:39.221Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.find()` buffering timed out after 10000ms
+    at new MongooseError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at Timeout._onTimeout (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7) 
+    url - /api/v1/users 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-21T03:04:25.854Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T03:05:35.686Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T03:05:35.699Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T07:17:41.961Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T07:17:41.975Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T07:17:55.609Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T07:17:55.622Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T07:23:49.498Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T07:23:49.511Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T07:32:07.919Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T07:32:07.931Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T07:36:52.876Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T07:36:52.889Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T07:37:19.763Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T07:37:19.780Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T07:37:20.908Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T07:37:20.922Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string.required is not a function
+    at newUserValidator (/home/dell/Desktop/nodeProjects/fundooBackend/src/validators/user.validator.js:7:22)
+    at Layer.handle [as handle_request] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/index.js:341:12)
+    at next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/index.js:47:12) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T07:39:19.756Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 25
+    at JSON.parse (<anonymous>)
+    at parse (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/body-parser/lib/types/json.js:89:19)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/body-parser/lib/read.js:121:18
+    at invokeCallback (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/raw-body/index.js:224:16)
+    at done (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:475:12)
+    at endReadableNT (internal/streams/readable.js:1334:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T07:42:03.201Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string.required is not a function
+    at newUserValidator (/home/dell/Desktop/nodeProjects/fundooBackend/src/validators/user.validator.js:7:22)
+    at Layer.handle [as handle_request] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/index.js:341:12)
+    at next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/index.js:47:12) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T07:43:16.895Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T07:44:18.941Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T07:44:18.954Z"}
+error: 
+    status - 500 
+    message - Error: "password" failed custom validation because Cannot read property 'presence' of undefined
+    at new exports.ValidationError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@hapi/joi/lib/errors.js:246:9)
+    at Object.exports.process (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@hapi/joi/lib/errors.js:189:29)
+    at Object.internals.entry (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@hapi/joi/lib/validator.js:140:26)
+    at Object.exports.entry (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@hapi/joi/lib/validator.js:26:30)
+    at internals.Base.validate (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@hapi/joi/lib/base.js:534:26)
+    at newUserValidator (/home/dell/Desktop/nodeProjects/fundooBackend/src/validators/user.validator.js:10:35)
+    at Layer.handle [as handle_request] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/route.js:137:13) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T07:44:22.965Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T07:44:48.924Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T07:44:48.936Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundoo-notes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-21T07:44:51.165Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/response.js:267:15)
+    at appErrorHandler (/home/dell/Desktop/nodeProjects/fundooBackend/src/middlewares/error.middleware.js:36:26)
+    at Layer.handle_error (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/layer.js:71:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T07:44:51.170Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundoo-notes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-21T07:44:53.436Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/response.js:267:15)
+    at appErrorHandler (/home/dell/Desktop/nodeProjects/fundooBackend/src/middlewares/error.middleware.js:36:26)
+    at Layer.handle_error (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/layer.js:71:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T07:44:53.437Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundoo-notes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-21T07:44:54.710Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/response.js:267:15)
+    at appErrorHandler (/home/dell/Desktop/nodeProjects/fundooBackend/src/middlewares/error.middleware.js:36:26)
+    at Layer.handle_error (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/layer.js:71:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T07:44:54.711Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T07:48:45.482Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T07:48:45.495Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T07:49:43.843Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T07:49:43.858Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T07:52:41.138Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T07:52:41.151Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundoo-notes.users index: email_1 dup key: { email: "nitya@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-21T07:52:49.016Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/response.js:267:15)
+    at appErrorHandler (/home/dell/Desktop/nodeProjects/fundooBackend/src/middlewares/error.middleware.js:36:26)
+    at Layer.handle_error (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/layer.js:71:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T07:52:49.022Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundoo-notes.users index: email_1 dup key: { email: "nitya@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-21T07:52:50.439Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/response.js:267:15)
+    at appErrorHandler (/home/dell/Desktop/nodeProjects/fundooBackend/src/middlewares/error.middleware.js:36:26)
+    at Layer.handle_error (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/layer.js:71:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T07:52:50.441Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T07:55:21.000Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T07:55:21.014Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T07:55:36.729Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T07:55:36.741Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T07:55:46.532Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T07:55:46.553Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundoo-notes.users index: email_1 dup key: { email: "nitya@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-21T07:55:53.188Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/response.js:267:15)
+    at appErrorHandler (/home/dell/Desktop/nodeProjects/fundooBackend/src/middlewares/error.middleware.js:36:26)
+    at Layer.handle_error (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/layer.js:71:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T07:55:53.193Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundoo-notes.users index: email_1 dup key: { email: "nityas@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-21T07:56:30.524Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/response.js:267:15)
+    at appErrorHandler (/home/dell/Desktop/nodeProjects/fundooBackend/src/middlewares/error.middleware.js:36:26)
+    at Layer.handle_error (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/layer.js:71:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T07:56:30.525Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T07:57:08.936Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T07:57:08.951Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundoo-notes.users index: email_1 dup key: { email: "nityas@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-21T07:57:18.159Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/response.js:267:15)
+    at appErrorHandler (/home/dell/Desktop/nodeProjects/fundooBackend/src/middlewares/error.middleware.js:36:26)
+    at Layer.handle_error (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/layer.js:71:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T07:57:18.165Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T07:59:01.252Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T07:59:01.267Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundoo-notes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-21T07:59:14.480Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/response.js:267:15)
+    at appErrorHandler (/home/dell/Desktop/nodeProjects/fundooBackend/src/middlewares/error.middleware.js:36:26)
+    at Layer.handle_error (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/layer.js:71:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T07:59:14.486Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundoo-notes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-21T07:59:48.141Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/response.js:267:15)
+    at appErrorHandler (/home/dell/Desktop/nodeProjects/fundooBackend/src/middlewares/error.middleware.js:36:26)
+    at Layer.handle_error (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/layer.js:71:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T07:59:48.142Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T07:59:59.917Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T07:59:59.932Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T10:53:48.395Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T10:53:48.411Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T11:09:54.424Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T11:09:54.438Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T11:11:11.587Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T11:11:11.600Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T11:11:16.213Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T11:11:16.225Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T11:17:49.979Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T11:17:49.992Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T13:16:08.802Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T13:16:08.817Z"}
+error: 
+    status - 500 
+    message - Error: User already registered
+    at _callee3$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/services/user.service.js:26:11)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T13:16:25.080Z"}
+error: 
+    status - 500 
+    message - Error: Invalid password
+    at _callee4$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/services/user.service.js:43:13)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T13:16:47.280Z"}
+error: 
+    status - 500 
+    message - Error: User validation failed
+    at new MongooseError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new ValidationError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/validation.js:27:5)
+    at model.Document.invalidate (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/document.js:2782:32)
+    at model.$set (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/document.js:1349:12)
+    at model.$set (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/document.js:1058:16)
+    at model.Document (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/document.js:148:12)
+    at model.Model (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/model.js:106:12)
+    at new model (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/model.js:4911:15) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T13:17:38.462Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T13:18:02.004Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T13:18:02.022Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hashSync (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/bcrypt/bcrypt.js:91:15)
+    at _callee3$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/services/user.service.js:22:28)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T13:18:05.424Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hashSync (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/bcrypt/bcrypt.js:91:15)
+    at _callee3$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/services/user.service.js:22:28)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T13:18:18.731Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hashSync (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/bcrypt/bcrypt.js:91:15)
+    at _callee3$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/services/user.service.js:22:28)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T13:18:20.129Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hashSync (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/bcrypt/bcrypt.js:91:15)
+    at _callee3$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/services/user.service.js:22:28)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T13:18:27.282Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T13:19:00.289Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T13:19:00.301Z"}
+error: 
+    status - 500 
+    message - Error: "firstName" is required
+    at new exports.ValidationError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@hapi/joi/lib/errors.js:246:9)
+    at Object.exports.process (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@hapi/joi/lib/errors.js:189:29)
+    at Object.internals.entry (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@hapi/joi/lib/validator.js:140:26)
+    at Object.exports.entry (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@hapi/joi/lib/validator.js:26:30)
+    at internals.Base.validate (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@hapi/joi/lib/base.js:534:26)
+    at newUserValidator (/home/dell/Desktop/nodeProjects/fundooBackend/src/validators/user.validator.js:10:35)
+    at Layer.handle [as handle_request] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/route.js:137:13) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T13:20:53.084Z"}
+error: 
+    status - 500 
+    message - Error: Invalid password
+    at _callee4$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/services/user.service.js:43:13)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T13:21:38.774Z"}
+error: 
+    status - 500 
+    message - Error: Invalid password
+    at _callee4$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/services/user.service.js:43:13)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T13:23:41.786Z"}
+error: 
+    status - 500 
+    message - Error: User not found, Please register.
+    at _callee4$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/services/user.service.js:37:11)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T13:23:54.536Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T02:43:35.395Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"Error: \n    at new MongooseError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/mongooseError.js:7:1)\n    at new MongooseServerSelectionError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/serverSelection.js:26:1)\n    at NativeConnection.Connection.openUri (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/connection.js:847:32)\n    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/index.js:351:10\n    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/index.js:1149:10)","timestamp":"2022-02-22T02:44:05.401Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.find()` buffering timed out after 10000ms
+    at new MongooseError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at Timeout._onTimeout (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7) 
+    url - /api/v1/users 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T02:45:23.054Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.find()` buffering timed out after 10000ms
+    at new MongooseError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at Timeout._onTimeout (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7) 
+    url - /api/v1/users 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T02:45:48.463Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.find()` buffering timed out after 10000ms
+    at new MongooseError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at Timeout._onTimeout (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7) 
+    url - /api/v1/users 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T02:46:07.613Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.find()` buffering timed out after 10000ms
+    at new MongooseError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at Timeout._onTimeout (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7) 
+    url - /api/v1/users 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T02:47:42.211Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.find()` buffering timed out after 10000ms
+    at new MongooseError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at Timeout._onTimeout (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7) 
+    url - /api/v1/users 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T02:48:02.345Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.find()` buffering timed out after 10000ms
+    at new MongooseError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at Timeout._onTimeout (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7) 
+    url - /api/v1/users 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T02:49:47.527Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.find()` buffering timed out after 10000ms
+    at new MongooseError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at Timeout._onTimeout (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7) 
+    url - /api/v1/users/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T02:51:35.068Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.find()` buffering timed out after 10000ms
+    at new MongooseError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at Timeout._onTimeout (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7) 
+    url - /api/v1/users 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T02:54:53.847Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.find()` buffering timed out after 10000ms
+    at new MongooseError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at Timeout._onTimeout (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7) 
+    url - /api/v1/users 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T02:55:49.411Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.find()` buffering timed out after 10000ms
+    at new MongooseError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at Timeout._onTimeout (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7) 
+    url - /api/v1/users 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T02:56:14.793Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.find()` buffering timed out after 10000ms
+    at new MongooseError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at Timeout._onTimeout (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7) 
+    url - /api/v1/users 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T03:02:22.887Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.findOne()` buffering timed out after 10000ms
+    at new MongooseError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at Timeout._onTimeout (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T03:03:42.484Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T03:04:11.703Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T03:04:11.718Z"}
