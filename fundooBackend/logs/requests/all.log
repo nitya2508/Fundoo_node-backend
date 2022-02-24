@@ -142,3 +142,339 @@ info: ::ffff:127.0.0.1 - - [22/Feb/2022:03:04:19 +0000] "POST /api/v1/users/logi
 
 info: ::ffff:127.0.0.1 - - [22/Feb/2022:03:04:27 +0000] "GET /api/v1/users HTTP/1.1" 200 592 "-" "Thunder Client (https://www.thunderclient.com)"
 
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:07:35:03 +0000] "POST /api/v1/users/login HTTP/1.1" 500 67 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:07:35:37 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [22/Feb/2022:07:37:13 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36"
+
+info: ::1 - - [22/Feb/2022:07:37:21 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:07:37:36 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [22/Feb/2022:07:38:27 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:11:38:44 +0000] "POST /api/v1/users/login HTTP/1.1" 500 51 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:11:38:47 +0000] "POST /api/v1/users/login HTTP/1.1" 500 51 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:11:38:51 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:11:38:58 +0000] "POST /api/v1/users/login HTTP/1.1" 500 67 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [23/Feb/2022:05:25:56 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36"
+
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/index.js:464:13)
+    at routes (/home/dell/Desktop/nodeProjects/fundooBackend/src/routes/index.js:16:10)
+    at Object.<anonymous> (/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js:32:32)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Wed Feb 23 2022 13:01:33 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[1.38,1.17,0.83],"uptime":18290.01},"process":{"argv":["node","/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js"],"cwd":"/home/dell/Desktop/nodeProjects/fundooBackend","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18919332,"external":21133688,"heapTotal":79245312,"heapUsed":51165384,"rss":126959616},"pid":26304,"uid":1000,"version":"v14.18.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/index.js:464:13)\n    at routes (/home/dell/Desktop/nodeProjects/fundooBackend/src/routes/index.js:16:10)\n    at Object.<anonymous> (/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js:32:32)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","trace":[{"column":13,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/index.js","function":"Function.use","line":464,"method":"use","native":false},{"column":10,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/src/routes/index.js","function":"routes","line":16,"method":null,"native":false},{"column":32,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/index.js:464:13)
+    at routes (/home/dell/Desktop/nodeProjects/fundooBackend/src/routes/index.js:16:10)
+    at Object.<anonymous> (/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js:32:32)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Wed Feb 23 2022 13:02:41 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[1.18,1.16,0.85],"uptime":18357.2},"process":{"argv":["node","/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js"],"cwd":"/home/dell/Desktop/nodeProjects/fundooBackend","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19209533,"external":21424535,"heapTotal":81604608,"heapUsed":53789472,"rss":129761280},"pid":26530,"uid":1000,"version":"v14.18.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/index.js:464:13)\n    at routes (/home/dell/Desktop/nodeProjects/fundooBackend/src/routes/index.js:16:10)\n    at Object.<anonymous> (/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js:32:32)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","trace":[{"column":13,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/index.js","function":"Function.use","line":464,"method":"use","native":false},{"column":10,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/src/routes/index.js","function":"routes","line":16,"method":null,"native":false},{"column":32,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:07:34:55 +0000] "POST /api/v1/notes/addnote HTTP/1.1" 201 226 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:07:35:28 +0000] "POST /api/v1/notes/addnote HTTP/1.1" 201 217 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:06:39 +0000] "GET /api/v1/notes/getAllNotes HTTP/1.1" 500 76 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:07:08 +0000] "GET /api/v1/notes/getAllNotes HTTP/1.1" 200 397 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:23:06 +0000] "PUT /api/v1/notes/updateNote HTTP/1.1" 202 224 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:23:34 +0000] "PUT /api/v1/notes/updateNote HTTP/1.1" 202 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:26:10 +0000] "PUT /api/v1/notes/getAllNotes HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:26:14 +0000] "GET /api/v1/notes/getAllNotes HTTP/1.1" 200 405 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:27:17 +0000] "GET /api/v1/notes/updateNotes HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:27:26 +0000] "PUT /api/v1/notes/updateNotes HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:27:53 +0000] "PUT /api/v1/notes/updateNotes HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:28:37 +0000] "PUT /api/v1/notes/updateNote HTTP/1.1" 202 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:28:48 +0000] "GET /api/v1/notes/getAllNotes HTTP/1.1" 200 422 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:03:45 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 62 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:04:47 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 62 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:04:48 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 62 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:05:33 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 62 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:06:03 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 62 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:06:04 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 62 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:06:56 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:08:05 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e39f87ada468fe998201 HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:08:07 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e39f87ada468fe998201 HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:08:31 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:09:03 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:09:04 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:10:03 +0000] "PUT /api/v1/notes/updateNote HTTP/1.1" 202 226 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:10:16 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:10:17 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:10:18 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:10:45 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e39f87ada468fe998201 HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:10:46 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e39f87ada468fe998201 HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:10:53 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:10:54 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:11:18 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:11:20 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:11:21 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:11:22 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:11:36 +0000] "GET /api/v1/notes/getNote/:_noteId HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:11:38 +0000] "GET /api/v1/notes/getNote/:_noteId HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:11:39 +0000] "GET /api/v1/notes/getNote/:_noteId HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:11:59 +0000] "POST /api/v1/notes/getNote/:_noteId HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:12:09 +0000] "GET /api/v1/notes/getNote/:_noteId HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:12:11 +0000] "GET /api/v1/notes/getNote/:_noteId HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:12:49 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:13:15 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:13:16 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:13:42 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:13:43 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:13:44 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:10:13:53 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [23/Feb/2022:10:15:36 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e39f87ada468fe998201 HTTP/1.1" 200 236 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [23/Feb/2022:10:16:43 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 236 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [23/Feb/2022:10:16:46 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 236 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [23/Feb/2022:10:16:48 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 236 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [23/Feb/2022:10:17:54 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [23/Feb/2022:10:18:12 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe99820 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [23/Feb/2022:10:18:14 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe99820 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [23/Feb/2022:10:18:15 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe99820 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [23/Feb/2022:10:18:49 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe99820 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [23/Feb/2022:10:18:52 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe99820 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [23/Feb/2022:10:20:00 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 500 130 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [23/Feb/2022:10:21:40 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 500 130 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [23/Feb/2022:10:22:17 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [23/Feb/2022:10:22:59 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [23/Feb/2022:10:23:14 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [23/Feb/2022:10:23:51 +0000] "GET /api/v1/notes/getNote/:_noteId?_noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [23/Feb/2022:10:24:19 +0000] "GET /api/v1/notes/getNote/:_noteId?noteId=6215e3c087ada468fe998203 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [23/Feb/2022:10:24:46 +0000] "GET /api/v1/notes/getNote/:_noteId?noteId=6215e3c087ada468fe998203 HTTP/1.1" 500 130 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [23/Feb/2022:10:26:10 +0000] "GET /api/v1/notes/getNote/:_id?_id=6215e3c087ada468fe998203 HTTP/1.1" 500 126 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [23/Feb/2022:10:26:14 +0000] "GET /api/v1/notes/getNote/:_id?_id=6215e3c087ada468fe998203 HTTP/1.1" 500 126 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [23/Feb/2022:10:27:16 +0000] "GET /api/v1/notes/getNote/:_id?_id=6215e3c087ada468fe998203 HTTP/1.1" 500 126 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [23/Feb/2022:10:29:35 +0000] "GET /api/v1/notes/getNote/:_id?_id=6215e3c087ada468fe998203 HTTP/1.1" 500 126 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [23/Feb/2022:10:29:36 +0000] "GET /api/v1/notes/getNote/:_id?_id=6215e3c087ada468fe998203 HTTP/1.1" 500 126 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [23/Feb/2022:10:30:58 +0000] "GET /api/v1/notes/getNote/:_id?_id=6215e3c087ada468fe998203 HTTP/1.1" 500 126 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [23/Feb/2022:10:30:59 +0000] "GET /api/v1/notes/getNote/:_id?_id=6215e3c087ada468fe998203 HTTP/1.1" 500 126 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [23/Feb/2022:10:31:17 +0000] "GET /api/v1/notes/getNote/:_id?_id=6215e3c087ada468fe998203 HTTP/1.1" 500 126 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [23/Feb/2022:11:52:11 +0000] "GET /api/v1/notes/getNote/:_id?_id=6215e3c087ada468fe998203 HTTP/1.1" 200 226 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [23/Feb/2022:11:52:31 +0000] "GET /api/v1/notes/getNote/:_id?_id=6215e39f87ada468fe998201 HTTP/1.1" 200 236 "-" "PostmanRuntime/7.29.0"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:11:55:59 +0000] "POST /api/v1/notes/addNote HTTP/1.1" 201 220 "-" "Thunder Client (https://www.thunderclient.com)"
+
+error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (fs.js:736:3)
+    at SyncWriteStream._write (internal/fs/sync_write_stream.js:24:3)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at SyncWriteStream.Writable.write (internal/streams/writable.js:303:10)
+    at Console.log (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js:82:19)
+    at doWrite (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at Console.Writable.write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.ondata (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20) {"date":"Wed Feb 23 2022 17:46:51 GMT+0530 (India Standard Time)","error":{"code":"EIO","errno":-5,"syscall":"write"},"exception":true,"os":{"loadavg":[0.72,1.32,1.36],"uptime":35407.35},"process":{"argv":["node","/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js"],"cwd":"/home/dell/Desktop/nodeProjects/fundooBackend","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18569376,"external":20803332,"heapTotal":82391040,"heapUsed":49530016,"rss":131878912},"pid":52429,"uid":1000,"version":"v14.18.1"},"stack":"Error: EIO: i/o error, write\n    at writeSync (fs.js:736:3)\n    at SyncWriteStream._write (internal/fs/sync_write_stream.js:24:3)\n    at writeOrBuffer (internal/streams/writable.js:358:12)\n    at SyncWriteStream.Writable.write (internal/streams/writable.js:303:10)\n    at Console.log (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js:79:23)\n    at Console._write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js:82:19)\n    at doWrite (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)\n    at writeOrBuffer (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)\n    at Console.Writable.write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:307:11)\n    at DerivedLogger.ondata (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20)","trace":[{"column":3,"file":"fs.js","function":"writeSync","line":736,"method":null,"native":false},{"column":3,"file":"internal/fs/sync_write_stream.js","function":"SyncWriteStream._write","line":24,"method":"_write","native":false},{"column":12,"file":"internal/streams/writable.js","function":"writeOrBuffer","line":358,"method":null,"native":false},{"column":10,"file":"internal/streams/writable.js","function":"SyncWriteStream.Writable.write","line":303,"method":"write","native":false},{"column":23,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false}]}
+error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (fs.js:736:3)
+    at SyncWriteStream._write (internal/fs/sync_write_stream.js:24:3)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at SyncWriteStream.Writable.write (internal/streams/writable.js:303:10)
+    at Console.log (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js:82:19)
+    at doWrite (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at Console.Writable.write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.ondata (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20) {"date":"Wed Feb 23 2022 18:23:23 GMT+0530 (India Standard Time)","error":{"code":"EIO","errno":-5,"syscall":"write"},"exception":true,"os":{"loadavg":[1.43,0.73,0.51],"uptime":37599.64},"process":{"argv":["node","/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js"],"cwd":"/home/dell/Desktop/nodeProjects/fundooBackend","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19327560,"external":21561516,"heapTotal":79507456,"heapUsed":59088096,"rss":128851968},"pid":55187,"uid":1000,"version":"v14.18.1"},"stack":"Error: EIO: i/o error, write\n    at writeSync (fs.js:736:3)\n    at SyncWriteStream._write (internal/fs/sync_write_stream.js:24:3)\n    at writeOrBuffer (internal/streams/writable.js:358:12)\n    at SyncWriteStream.Writable.write (internal/streams/writable.js:303:10)\n    at Console.log (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js:79:23)\n    at Console._write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js:82:19)\n    at doWrite (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)\n    at writeOrBuffer (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)\n    at Console.Writable.write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:307:11)\n    at DerivedLogger.ondata (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20)","trace":[{"column":3,"file":"fs.js","function":"writeSync","line":736,"method":null,"native":false},{"column":3,"file":"internal/fs/sync_write_stream.js","function":"SyncWriteStream._write","line":24,"method":"_write","native":false},{"column":12,"file":"internal/streams/writable.js","function":"writeOrBuffer","line":358,"method":null,"native":false},{"column":10,"file":"internal/streams/writable.js","function":"SyncWriteStream.Writable.write","line":303,"method":"write","native":false},{"column":23,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Wed Feb 23 2022 18:23:24 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-98,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[1.43,0.73,0.51],"uptime":37599.75},"process":{"argv":["node","/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js"],"cwd":"/home/dell/Desktop/nodeProjects/fundooBackend","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18385056,"external":20618044,"heapTotal":81604608,"heapUsed":48212640,"rss":128688128},"pid":55198,"uid":1000,"version":"v14.18.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n    at listenInCluster (net.js:1379:12)\n    at Server.listen (net.js:1465:7)\n    at Function.listen (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/application.js:618:24)\n    at Object.<anonymous> (/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1331,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1379,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (fs.js:736:3)
+    at SyncWriteStream._write (internal/fs/sync_write_stream.js:24:3)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at SyncWriteStream.Writable.write (internal/streams/writable.js:303:10)
+    at Console.log (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js:82:19)
+    at doWrite (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at Console.Writable.write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.ondata (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20) {"date":"Wed Feb 23 2022 18:25:44 GMT+0530 (India Standard Time)","error":{"code":"EIO","errno":-5,"syscall":"write"},"exception":true,"os":{"loadavg":[1.45,1.01,0.65],"uptime":37739.93},"process":{"argv":["node","/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js"],"cwd":"/home/dell/Desktop/nodeProjects/fundooBackend","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18530584,"external":20764540,"heapTotal":81080320,"heapUsed":51397224,"rss":130039808},"pid":55651,"uid":1000,"version":"v14.18.1"},"stack":"Error: EIO: i/o error, write\n    at writeSync (fs.js:736:3)\n    at SyncWriteStream._write (internal/fs/sync_write_stream.js:24:3)\n    at writeOrBuffer (internal/streams/writable.js:358:12)\n    at SyncWriteStream.Writable.write (internal/streams/writable.js:303:10)\n    at Console.log (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js:79:23)\n    at Console._write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js:82:19)\n    at doWrite (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)\n    at writeOrBuffer (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)\n    at Console.Writable.write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:307:11)\n    at DerivedLogger.ondata (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20)","trace":[{"column":3,"file":"fs.js","function":"writeSync","line":736,"method":null,"native":false},{"column":3,"file":"internal/fs/sync_write_stream.js","function":"SyncWriteStream._write","line":24,"method":"_write","native":false},{"column":12,"file":"internal/streams/writable.js","function":"writeOrBuffer","line":358,"method":null,"native":false},{"column":10,"file":"internal/streams/writable.js","function":"SyncWriteStream.Writable.write","line":303,"method":"write","native":false},{"column":23,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Wed Feb 23 2022 18:25:44 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-98,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[1.45,1.01,0.65],"uptime":37739.93},"process":{"argv":["node","/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js"],"cwd":"/home/dell/Desktop/nodeProjects/fundooBackend","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18498198,"external":20731186,"heapTotal":82132992,"heapUsed":49859616,"rss":129425408},"pid":55662,"uid":1000,"version":"v14.18.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n    at listenInCluster (net.js:1379:12)\n    at Server.listen (net.js:1465:7)\n    at Function.listen (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/application.js:618:24)\n    at Object.<anonymous> (/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1331,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1379,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (fs.js:736:3)
+    at SyncWriteStream._write (internal/fs/sync_write_stream.js:24:3)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at SyncWriteStream.Writable.write (internal/streams/writable.js:303:10)
+    at Console.log (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js:82:19)
+    at doWrite (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at Console.Writable.write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.ondata (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20) {"date":"Wed Feb 23 2022 18:26:34 GMT+0530 (India Standard Time)","error":{"code":"EIO","errno":-5,"syscall":"write"},"exception":true,"os":{"loadavg":[1.55,1.09,0.7],"uptime":37790.49},"process":{"argv":["node","/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js"],"cwd":"/home/dell/Desktop/nodeProjects/fundooBackend","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18528444,"external":20762400,"heapTotal":80818176,"heapUsed":48982376,"rss":128704512},"pid":55846,"uid":1000,"version":"v14.18.1"},"stack":"Error: EIO: i/o error, write\n    at writeSync (fs.js:736:3)\n    at SyncWriteStream._write (internal/fs/sync_write_stream.js:24:3)\n    at writeOrBuffer (internal/streams/writable.js:358:12)\n    at SyncWriteStream.Writable.write (internal/streams/writable.js:303:10)\n    at Console.log (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js:79:23)\n    at Console._write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js:82:19)\n    at doWrite (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)\n    at writeOrBuffer (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)\n    at Console.Writable.write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:307:11)\n    at DerivedLogger.ondata (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20)","trace":[{"column":3,"file":"fs.js","function":"writeSync","line":736,"method":null,"native":false},{"column":3,"file":"internal/fs/sync_write_stream.js","function":"SyncWriteStream._write","line":24,"method":"_write","native":false},{"column":12,"file":"internal/streams/writable.js","function":"writeOrBuffer","line":358,"method":null,"native":false},{"column":10,"file":"internal/streams/writable.js","function":"SyncWriteStream.Writable.write","line":303,"method":"write","native":false},{"column":23,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Wed Feb 23 2022 18:26:34 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-98,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[1.55,1.09,0.7],"uptime":37790.58},"process":{"argv":["node","/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js"],"cwd":"/home/dell/Desktop/nodeProjects/fundooBackend","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18484944,"external":20717932,"heapTotal":80560128,"heapUsed":49476056,"rss":128110592},"pid":55847,"uid":1000,"version":"v14.18.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n    at listenInCluster (net.js:1379:12)\n    at Server.listen (net.js:1465:7)\n    at Function.listen (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/application.js:618:24)\n    at Object.<anonymous> (/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1331,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1379,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:12:59:34 +0000] "DELETE /api/v1/notes/noteDeleted HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:12:59:53 +0000] "DELETE /api/v1/notes/deleteNote HTTP/1.1" 200 226 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:13:08:20 +0000] "PUT /api/v1/notes/trashNote HTTP/1.1" 200 62 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:13:09:02 +0000] "PUT /api/v1/notes/trashNote HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:13:09:10 +0000] "PUT /api/v1/notes/trashNote HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (fs.js:736:3)
+    at SyncWriteStream._write (internal/fs/sync_write_stream.js:24:3)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at SyncWriteStream.Writable.write (internal/streams/writable.js:303:10)
+    at Console.log (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js:82:19)
+    at doWrite (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at Console.Writable.write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.ondata (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20) {"date":"Wed Feb 23 2022 18:39:56 GMT+0530 (India Standard Time)","error":{"code":"EIO","errno":-5,"syscall":"write"},"exception":true,"os":{"loadavg":[0.73,0.97,0.92],"uptime":38591.88},"process":{"argv":["node","/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js"],"cwd":"/home/dell/Desktop/nodeProjects/fundooBackend","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18563787,"external":20797743,"heapTotal":80293888,"heapUsed":51661400,"rss":128299008},"pid":57742,"uid":1000,"version":"v14.18.1"},"stack":"Error: EIO: i/o error, write\n    at writeSync (fs.js:736:3)\n    at SyncWriteStream._write (internal/fs/sync_write_stream.js:24:3)\n    at writeOrBuffer (internal/streams/writable.js:358:12)\n    at SyncWriteStream.Writable.write (internal/streams/writable.js:303:10)\n    at Console.log (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js:79:23)\n    at Console._write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js:82:19)\n    at doWrite (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)\n    at writeOrBuffer (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)\n    at Console.Writable.write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:307:11)\n    at DerivedLogger.ondata (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20)","trace":[{"column":3,"file":"fs.js","function":"writeSync","line":736,"method":null,"native":false},{"column":3,"file":"internal/fs/sync_write_stream.js","function":"SyncWriteStream._write","line":24,"method":"_write","native":false},{"column":12,"file":"internal/streams/writable.js","function":"writeOrBuffer","line":358,"method":null,"native":false},{"column":10,"file":"internal/streams/writable.js","function":"SyncWriteStream.Writable.write","line":303,"method":"write","native":false},{"column":23,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Wed Feb 23 2022 18:39:56 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-98,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0.73,0.97,0.92],"uptime":38591.92},"process":{"argv":["node","/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js"],"cwd":"/home/dell/Desktop/nodeProjects/fundooBackend","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19135178,"external":21368812,"heapTotal":80293888,"heapUsed":54714944,"rss":129015808},"pid":57753,"uid":1000,"version":"v14.18.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n    at listenInCluster (net.js:1379:12)\n    at Server.listen (net.js:1465:7)\n    at Function.listen (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/application.js:618:24)\n    at Object.<anonymous> (/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1331,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1379,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:13:11:11 +0000] "DELETE /api/v1/notes/deleteNote HTTP/1.1" 200 62 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:13:12:35 +0000] "PUT /api/v1/notes/deleteNote HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:13:12:45 +0000] "PUT /api/v1/notes/trashNote HTTP/1.1" 200 62 "-" "Thunder Client (https://www.thunderclient.com)"
+
+error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (fs.js:736:3)
+    at SyncWriteStream._write (internal/fs/sync_write_stream.js:24:3)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at SyncWriteStream.Writable.write (internal/streams/writable.js:303:10)
+    at Console.log (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js:82:19)
+    at doWrite (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at Console.Writable.write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.ondata (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20) {"date":"Wed Feb 23 2022 18:44:10 GMT+0530 (India Standard Time)","error":{"code":"EIO","errno":-5,"syscall":"write"},"exception":true,"os":{"loadavg":[0.69,0.8,0.86],"uptime":38846.24},"process":{"argv":["node","/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js"],"cwd":"/home/dell/Desktop/nodeProjects/fundooBackend","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18555593,"external":20789549,"heapTotal":80560128,"heapUsed":51801720,"rss":130637824},"pid":58519,"uid":1000,"version":"v14.18.1"},"stack":"Error: EIO: i/o error, write\n    at writeSync (fs.js:736:3)\n    at SyncWriteStream._write (internal/fs/sync_write_stream.js:24:3)\n    at writeOrBuffer (internal/streams/writable.js:358:12)\n    at SyncWriteStream.Writable.write (internal/streams/writable.js:303:10)\n    at Console.log (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js:79:23)\n    at Console._write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js:82:19)\n    at doWrite (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)\n    at writeOrBuffer (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)\n    at Console.Writable.write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:307:11)\n    at DerivedLogger.ondata (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20)","trace":[{"column":3,"file":"fs.js","function":"writeSync","line":736,"method":null,"native":false},{"column":3,"file":"internal/fs/sync_write_stream.js","function":"SyncWriteStream._write","line":24,"method":"_write","native":false},{"column":12,"file":"internal/streams/writable.js","function":"writeOrBuffer","line":358,"method":null,"native":false},{"column":10,"file":"internal/streams/writable.js","function":"SyncWriteStream.Writable.write","line":303,"method":"write","native":false},{"column":23,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false}]}

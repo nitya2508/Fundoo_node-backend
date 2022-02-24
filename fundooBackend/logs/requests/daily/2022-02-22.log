@@ -32,3 +32,23 @@ info: ::ffff:127.0.0.1 - - [22/Feb/2022:03:04:19 +0000] "POST /api/v1/users/logi
 
 info: ::ffff:127.0.0.1 - - [22/Feb/2022:03:04:27 +0000] "GET /api/v1/users HTTP/1.1" 200 592 "-" "Thunder Client (https://www.thunderclient.com)"
 
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:07:35:03 +0000] "POST /api/v1/users/login HTTP/1.1" 500 67 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:07:35:37 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [22/Feb/2022:07:37:13 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36"
+
+info: ::1 - - [22/Feb/2022:07:37:21 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:07:37:36 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [22/Feb/2022:07:38:27 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:11:38:44 +0000] "POST /api/v1/users/login HTTP/1.1" 500 51 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:11:38:47 +0000] "POST /api/v1/users/login HTTP/1.1" 500 51 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:11:38:51 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:11:38:58 +0000] "POST /api/v1/users/login HTTP/1.1" 500 67 "-" "Thunder Client (https://www.thunderclient.com)"
+

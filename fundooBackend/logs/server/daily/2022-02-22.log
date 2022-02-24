@@ -134,3 +134,64 @@ error:
    {"timestamp":"2022-02-22T03:03:42.484Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T03:04:11.703Z"}
 info: Connected to the database. {"timestamp":"2022-02-22T03:04:11.718Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T07:34:43.276Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T07:34:43.294Z"}
+error: 
+    status - 500 
+    message - Error: User not found, Please register.
+    at _callee4$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/services/user.service.js:37:11)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T07:35:03.948Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T07:37:07.686Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T07:37:07.700Z"}
+error: 
+    status - 500 
+    message - Error: Invalid password
+    at _callee4$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/services/user.service.js:44:13)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T11:38:44.529Z"}
+error: 
+    status - 500 
+    message - Error: Invalid password
+    at _callee4$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/services/user.service.js:44:13)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T11:38:47.664Z"}
+error: 
+    status - 500 
+    message - Error: User not found, Please register.
+    at _callee4$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/services/user.service.js:37:11)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T11:38:58.328Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T11:40:37.962Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T11:40:37.976Z"}

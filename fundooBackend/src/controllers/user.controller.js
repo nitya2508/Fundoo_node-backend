@@ -79,7 +79,7 @@ export const registerUser = async (req, res, next)=>{
 }
 
 /**
- * Controller to create a new user
+ * Controller to login user
  * @param  {object} req - request object
  * @param {object} res - response object
  * @param {Function} next
@@ -87,6 +87,7 @@ export const registerUser = async (req, res, next)=>{
  export const loginUser = async (req, res,next) => {
    try{
      const loginData = await UserService.loginUser(req.body);
+     console.log(loginData);
      res.status(HttpStatus.OK).json({
        code: HttpStatus.OK,
        data: loginData,
