@@ -11,7 +11,10 @@ var _joi = _interopRequireDefault(require("@hapi/joi"));
 
 var newUserValidator = function newUserValidator(req, res, next) {
   var schema = _joi["default"].object({
-    name: _joi["default"].string().min(4).required()
+    firstName: _joi["default"].string().min(4).required(),
+    lastName: _joi["default"].string().min(4).required(),
+    email: _joi["default"].string().min(8).required(),
+    password: _joi["default"].string().min(6).required()
   });
 
   var _schema$validate = schema.validate(req.body),

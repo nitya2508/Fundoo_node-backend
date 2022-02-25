@@ -1194,3 +1194,1262 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T0
 error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"Error: \n    at new MongooseError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/mongooseError.js:7:1)\n    at new MongooseServerSelectionError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/serverSelection.js:26:1)\n    at NativeConnection.Connection.openUri (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/connection.js:847:32)\n    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/index.js:351:10\n    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/index.js:1149:10)","timestamp":"2022-02-24T02:26:58.202Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T02:27:38.630Z"}
 info: Connected to the database. {"timestamp":"2022-02-24T02:27:38.646Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T04:08:24.344Z"}
+error: uncaughtException: write EIO
+Error: write EIO
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at WriteStream.Socket._writeGeneric (net.js:798:11)
+    at WriteStream.Socket._write (net.js:810:8)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at WriteStream.Writable.write (internal/streams/writable.js:303:10)
+    at Console.log (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js:82:19)
+    at doWrite (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5) {"date":"Thu Feb 24 2022 09:38:24 GMT+0530 (India Standard Time)","error":{"code":"EIO","errno":-5,"syscall":"write"},"exception":true,"os":{"loadavg":[2.15,1.43,1.28],"uptime":6210.01},"process":{"argv":["node","/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js"],"cwd":"/home/dell/Desktop/nodeProjects/fundooBackend","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18563902,"external":20796850,"heapTotal":80822272,"heapUsed":51244320,"rss":130314240},"pid":10251,"uid":1000,"version":"v14.18.1"},"stack":"Error: write EIO\n    at afterWriteDispatched (internal/stream_base_commons.js:156:25)\n    at writeGeneric (internal/stream_base_commons.js:147:3)\n    at WriteStream.Socket._writeGeneric (net.js:798:11)\n    at WriteStream.Socket._write (net.js:810:8)\n    at writeOrBuffer (internal/streams/writable.js:358:12)\n    at WriteStream.Writable.write (internal/streams/writable.js:303:10)\n    at Console.log (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js:79:23)\n    at Console._write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js:82:19)\n    at doWrite (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)\n    at writeOrBuffer (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)","timestamp":"2022-02-24T04:08:24.352Z","trace":[{"column":25,"file":"internal/stream_base_commons.js","function":"afterWriteDispatched","line":156,"method":null,"native":false},{"column":3,"file":"internal/stream_base_commons.js","function":"writeGeneric","line":147,"method":null,"native":false},{"column":11,"file":"net.js","function":"WriteStream.Socket._writeGeneric","line":798,"method":"_writeGeneric","native":false},{"column":8,"file":"net.js","function":"WriteStream.Socket._write","line":810,"method":"_write","native":false},{"column":12,"file":"internal/streams/writable.js","function":"writeOrBuffer","line":358,"method":null,"native":false},{"column":10,"file":"internal/streams/writable.js","function":"WriteStream.Writable.write","line":303,"method":"write","native":false},{"column":23,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T06:42:39.331Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T06:42:39.345Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T07:54:45.063Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T07:54:45.080Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T07:54:48.428Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T07:54:48.440Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T07:58:59.925Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T07:58:59.940Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T08:03:35.782Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T08:03:35.796Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T08:07:38.052Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T08:07:38.066Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T08:10:06.730Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T08:10:06.745Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T08:11:12.991Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T08:11:13.005Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T08:11:32.893Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T08:11:32.909Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T08:12:00.203Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T08:12:00.217Z"}
+error: 
+      status - 2
+      message - The field 'isDeleted' must be an array but is of type bool in document {_id: ObjectId('62173d3064ab8c209a400143')} 
+      url - /api/v1/notes/trashNote 
+      method - PUT 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-24T08:12:05.946Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 2
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/response.js:267:15)
+    at appErrorHandler (/home/dell/Desktop/nodeProjects/fundooBackend/src/middlewares/error.middleware.js:36:26)
+    at Layer.handle_error (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/layer.js:71:5) 
+    url - /api/v1/notes/trashNote 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T08:12:05.952Z"}
+error: 
+      status - 2
+      message - The field 'isDeleted' must be an array but is of type bool in document {_id: ObjectId('62173d3064ab8c209a400143')} 
+      url - /api/v1/notes/trashNote 
+      method - PUT 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-24T08:12:10.306Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 2
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/response.js:267:15)
+    at appErrorHandler (/home/dell/Desktop/nodeProjects/fundooBackend/src/middlewares/error.middleware.js:36:26)
+    at Layer.handle_error (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/layer.js:71:5) 
+    url - /api/v1/notes/trashNote 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T08:12:10.307Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T08:12:49.246Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T08:12:49.259Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T08:15:21.651Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T08:15:21.664Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T08:16:45.100Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T08:16:45.114Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T08:17:30.123Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T08:17:30.135Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T08:19:32.155Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T08:19:32.168Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T08:21:14.103Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T08:21:14.118Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T08:22:20.160Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T08:22:20.175Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T08:24:01.569Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T08:24:01.586Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T08:24:17.704Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T08:24:17.717Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T08:24:19.176Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T08:24:19.190Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token : in JSON at position 111
+    at JSON.parse (<anonymous>)
+    at parse (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/body-parser/lib/types/json.js:89:19)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/body-parser/lib/read.js:121:18
+    at invokeCallback (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/raw-body/index.js:224:16)
+    at done (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:475:12)
+    at endReadableNT (internal/streams/readable.js:1334:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/notes/addNote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T08:25:27.209Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T08:29:59.769Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T08:29:59.782Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T08:30:03.856Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T08:30:03.870Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T08:43:53.960Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T08:43:53.973Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T08:46:30.079Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T08:46:30.093Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:13:34)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at addNote (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:11:22) 
+    url - /api/v1/notes/addNote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T08:46:58.845Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T08:47:55.466Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T08:47:55.481Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T08:48:39.463Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T08:48:39.478Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T08:49:00.247Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T08:49:00.260Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:13:34)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at addNote (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:11:22) 
+    url - /api/v1/notes/addNote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T08:49:10.503Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T09:31:50.732Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T09:31:50.747Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T09:32:40.936Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T09:32:40.948Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T09:33:41.151Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T09:33:41.164Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T09:33:50.430Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T09:33:50.444Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/addNote 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-24T09:33:55.702Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T09:34:39.962Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T09:34:39.978Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T09:36:39.540Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T09:36:39.555Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T09:37:54.798Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T09:37:54.816Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T09:38:34.042Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T09:38:34.056Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T09:40:10.380Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T09:40:10.394Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T09:40:57.828Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T09:40:57.843Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T09:42:06.026Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T09:42:06.039Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T09:42:41.035Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T09:42:41.052Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T09:43:28.428Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T09:43:28.442Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/addNote 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-24T09:43:33.066Z"}
+error: 
+    status - 500 
+    message - Error: User not found, Please register.
+    at _callee4$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/services/user.service.js:38:11)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T09:48:20.990Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/addNote 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-24T09:49:53.152Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/addNote 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-24T09:50:15.638Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T09:51:21.231Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T09:51:21.254Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T09:52:37.112Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T09:52:37.129Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T09:54:03.996Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T09:54:04.009Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T09:55:29.991Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T09:55:30.014Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T09:56:57.352Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T09:56:57.366Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T09:58:25.002Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T09:58:25.019Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T09:59:11.540Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T09:59:11.565Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T09:59:48.333Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T09:59:48.349Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T10:00:30.417Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T10:00:30.431Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T10:01:00.105Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T10:01:00.122Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T10:01:54.763Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T10:01:54.783Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:13:34)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at addNote (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:11:22) 
+    url - /api/v1/notes/addNote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T10:02:00.188Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T10:02:36.706Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T10:02:36.719Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:14:39)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at addNote (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:11:22) 
+    url - /api/v1/notes/addNote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T10:02:43.781Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T10:03:43.448Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T10:03:43.465Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T10:04:30.734Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T10:04:30.746Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T10:04:53.974Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T10:04:53.991Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T10:06:41.815Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T10:06:41.831Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T10:11:00.666Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T10:11:00.678Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T10:12:19.406Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T10:12:19.419Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T10:14:37.575Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T10:14:37.590Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T10:25:51.116Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T10:25:51.131Z"}
+error: 
+    status - 500 
+    message - ReferenceError: eq is not defined
+    at _callee$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:14:25)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at addNote (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:11:22) 
+    url - /api/v1/notes/addNote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T10:26:10.835Z"}
+error: 
+    status - 500 
+    message - ReferenceError: eq is not defined
+    at _callee$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:14:25)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at addNote (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:11:22) 
+    url - /api/v1/notes/addNote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T10:26:47.099Z"}
+error: 
+    status - 500 
+    message - ReferenceError: eq is not defined
+    at _callee$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:14:25)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at addNote (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:11:22) 
+    url - /api/v1/notes/addNote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T10:26:48.120Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T10:27:18.469Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T10:27:18.489Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T11:37:24.581Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T11:37:24.595Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T11:38:18.453Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T11:38:18.469Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T11:39:44.858Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T11:39:44.876Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T11:42:53.926Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T11:42:53.941Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T11:43:22.246Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T11:43:22.263Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T11:49:41.551Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T11:49:41.566Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T11:50:07.229Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T11:50:07.245Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T11:50:36.661Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T11:50:36.674Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes/getAllNotes 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T11:50:55.014Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T11:51:56.069Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T11:51:56.089Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T11:55:08.076Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T11:55:08.094Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T11:55:42.384Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T11:55:42.401Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T11:59:04.682Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T11:59:04.697Z"}
+error: 
+    status - 500 
+    message - Error: Parameter "filter" to find() must be an object, got 6213923d74b12c84f3153bdc
+    at new MongooseError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new ObjectParameterError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/objectParameter.js:20:5)
+    at model.Query.Query.find (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/query.js:2098:16)
+    at Function.find (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/model.js:2157:13)
+    at _callee2$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/services/note.service.js:13:30)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21) 
+    url - /api/v1/notes/getAllNotes 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T11:59:08.295Z"}
+error: 
+    status - 500 
+    message - Error: Parameter "filter" to find() must be an object, got 6213923d74b12c84f3153bdc
+    at new MongooseError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new ObjectParameterError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/objectParameter.js:20:5)
+    at model.Query.Query.find (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/query.js:2098:16)
+    at Function.find (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/model.js:2157:13)
+    at _callee2$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/services/note.service.js:13:30)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21) 
+    url - /api/v1/notes/getAllNotes 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T11:59:09.997Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T11:59:41.497Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T11:59:41.513Z"}
+error: 
+    status - 500 
+    message - Error: "lastName" length must be at least 4 characters long
+    at new exports.ValidationError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@hapi/joi/lib/errors.js:246:9)
+    at Object.exports.process (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@hapi/joi/lib/errors.js:189:29)
+    at Object.internals.entry (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@hapi/joi/lib/validator.js:140:26)
+    at Object.exports.entry (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@hapi/joi/lib/validator.js:26:30)
+    at internals.Base.validate (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@hapi/joi/lib/base.js:534:26)
+    at newUserValidator (/home/dell/Desktop/nodeProjects/fundooBackend/src/validators/user.validator.js:10:35)
+    at Layer.handle [as handle_request] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/route.js:137:13) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T12:10:41.926Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T12:53:43.891Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T12:53:43.951Z"}
+error: 
+    status - 500 
+    message - Error: "firstName" is required
+    at new exports.ValidationError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@hapi/joi/lib/errors.js:246:9)
+    at Object.exports.process (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@hapi/joi/lib/errors.js:189:29)
+    at Object.internals.entry (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@hapi/joi/lib/validator.js:140:26)
+    at Object.exports.entry (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@hapi/joi/lib/validator.js:26:30)
+    at internals.Base.validate (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@hapi/joi/lib/base.js:534:26)
+    at newUserValidator (/home/dell/Desktop/nodeProjects/fundooBackend/src/validators/user.validator.js:10:35)
+    at Layer.handle [as handle_request] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/route.js:137:13) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-24T12:55:25.682Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T12:57:27.049Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T12:57:27.067Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T13:00:43.373Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T13:00:43.386Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:14:39)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at addNote (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:11:22) 
+    url - /api/v1/notes/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-24T13:09:12.201Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Thu Feb 24 2022 18:39:35 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-98,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[1.59,1.61,1.62],"uptime":23437.17},"process":{"argv":["node","/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js"],"cwd":"/home/dell/Desktop/nodeProjects/fundooBackend","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18533146,"external":20766740,"heapTotal":83050496,"heapUsed":50719224,"rss":132173824},"pid":47459,"uid":1000,"version":"v14.18.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n    at listenInCluster (net.js:1379:12)\n    at Server.listen (net.js:1465:7)\n    at Function.listen (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/application.js:618:24)\n    at Object.<anonymous> (/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-02-24T13:09:35.135Z","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1331,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1379,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Thu Feb 24 2022 18:40:06 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-98,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[1.26,1.53,1.59],"uptime":23468.37},"process":{"argv":["node","/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js"],"cwd":"/home/dell/Desktop/nodeProjects/fundooBackend","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19200968,"external":21434562,"heapTotal":81739776,"heapUsed":61020784,"rss":130285568},"pid":47604,"uid":1000,"version":"v14.18.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n    at listenInCluster (net.js:1379:12)\n    at Server.listen (net.js:1465:7)\n    at Function.listen (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/application.js:618:24)\n    at Object.<anonymous> (/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-02-24T13:10:06.333Z","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1331,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1379,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+error: uncaughtException: write EIO
+Error: write EIO
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at WriteStream.Socket._writeGeneric (net.js:798:11)
+    at WriteStream.Socket._write (net.js:810:8)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at WriteStream.Writable.write (internal/streams/writable.js:303:10)
+    at Console.log (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js:82:19)
+    at doWrite (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5) {"date":"Thu Feb 24 2022 18:40:06 GMT+0530 (India Standard Time)","error":{"code":"EIO","errno":-5,"syscall":"write"},"exception":true,"os":{"loadavg":[1.26,1.53,1.59],"uptime":23468.38},"process":{"argv":["node","/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js"],"cwd":"/home/dell/Desktop/nodeProjects/fundooBackend","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19282165,"external":21515799,"heapTotal":81739776,"heapUsed":61615344,"rss":130625536},"pid":47604,"uid":1000,"version":"v14.18.1"},"stack":"Error: write EIO\n    at afterWriteDispatched (internal/stream_base_commons.js:156:25)\n    at writeGeneric (internal/stream_base_commons.js:147:3)\n    at WriteStream.Socket._writeGeneric (net.js:798:11)\n    at WriteStream.Socket._write (net.js:810:8)\n    at writeOrBuffer (internal/streams/writable.js:358:12)\n    at WriteStream.Writable.write (internal/streams/writable.js:303:10)\n    at Console.log (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js:79:23)\n    at Console._write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js:82:19)\n    at doWrite (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)\n    at writeOrBuffer (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)","timestamp":"2022-02-24T13:10:06.338Z","trace":[{"column":25,"file":"internal/stream_base_commons.js","function":"afterWriteDispatched","line":156,"method":null,"native":false},{"column":3,"file":"internal/stream_base_commons.js","function":"writeGeneric","line":147,"method":null,"native":false},{"column":11,"file":"net.js","function":"WriteStream.Socket._writeGeneric","line":798,"method":"_writeGeneric","native":false},{"column":8,"file":"net.js","function":"WriteStream.Socket._write","line":810,"method":"_write","native":false},{"column":12,"file":"internal/streams/writable.js","function":"writeOrBuffer","line":358,"method":null,"native":false},{"column":10,"file":"internal/streams/writable.js","function":"WriteStream.Writable.write","line":303,"method":"write","native":false},{"column":23,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-02-24T13:12:32.637Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T13:12:32.655Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:14:39)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at addNote (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:11:22) 
+    url - /api/v1/notes/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-24T13:12:42.384Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:14:39)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at addNote (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:11:22) 
+    url - /api/v1/notes/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-24T13:12:51.675Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-02-24T13:13:19.451Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T13:13:19.467Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:14:39)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at addNote (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:11:22) 
+    url - /api/v1/notes/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-24T13:13:23.717Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-02-24T13:14:20.877Z"}
+error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (fs.js:736:3)
+    at SyncWriteStream._write (internal/fs/sync_write_stream.js:24:3)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at SyncWriteStream.Writable.write (internal/streams/writable.js:303:10)
+    at Console.log (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js:82:19)
+    at doWrite (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at Console.Writable.write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.ondata (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20) {"date":"Thu Feb 24 2022 18:44:20 GMT+0530 (India Standard Time)","error":{"code":"EIO","errno":-5,"syscall":"write"},"exception":true,"os":{"loadavg":[1.64,1.66,1.65],"uptime":23722.92},"process":{"argv":["node","/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js"],"cwd":"/home/dell/Desktop/nodeProjects/fundooBackend","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19220908,"external":21454824,"heapTotal":80429056,"heapUsed":59237280,"rss":128188416},"pid":48649,"uid":1000,"version":"v14.18.1"},"stack":"Error: EIO: i/o error, write\n    at writeSync (fs.js:736:3)\n    at SyncWriteStream._write (internal/fs/sync_write_stream.js:24:3)\n    at writeOrBuffer (internal/streams/writable.js:358:12)\n    at SyncWriteStream.Writable.write (internal/streams/writable.js:303:10)\n    at Console.log (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js:79:23)\n    at Console._write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js:82:19)\n    at doWrite (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)\n    at writeOrBuffer (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)\n    at Console.Writable.write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:307:11)\n    at DerivedLogger.ondata (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20)","timestamp":"2022-02-24T13:14:20.881Z","trace":[{"column":3,"file":"fs.js","function":"writeSync","line":736,"method":null,"native":false},{"column":3,"file":"internal/fs/sync_write_stream.js","function":"SyncWriteStream._write","line":24,"method":"_write","native":false},{"column":12,"file":"internal/streams/writable.js","function":"writeOrBuffer","line":358,"method":null,"native":false},{"column":10,"file":"internal/streams/writable.js","function":"SyncWriteStream.Writable.write","line":303,"method":"write","native":false},{"column":23,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Thu Feb 24 2022 18:44:20 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-98,"port":4000,"syscall":"listen"},"exception":true,"os":{"loadavg":[1.64,1.66,1.65],"uptime":23723.01},"process":{"argv":["node","/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js"],"cwd":"/home/dell/Desktop/nodeProjects/fundooBackend","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19150600,"external":21383548,"heapTotal":81215488,"heapUsed":58677648,"rss":130949120},"pid":48660,"uid":1000,"version":"v14.18.1"},"stack":"Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n    at listenInCluster (net.js:1379:12)\n    at Server.listen (net.js:1465:7)\n    at Function.listen (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/application.js:618:24)\n    at Object.<anonymous> (/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-02-24T13:14:20.967Z","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1331,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1379,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-02-24T13:15:06.495Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T13:15:06.510Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-02-24T13:16:40.940Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T13:16:40.954Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:14:39)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at addNote (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:11:22) 
+    url - /api/v1/notes/addNote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T13:16:57.082Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:14:39)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at addNote (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:11:22) 
+    url - /api/v1/notes/addNote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T13:17:53.336Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:14:39)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at addNote (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:11:22) 
+    url - /api/v1/notes/addNote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T13:17:55.003Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:14:39)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at addNote (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:11:22) 
+    url - /api/v1/notes/addNote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T13:17:59.760Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-02-24T13:18:18.031Z"}
+error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (fs.js:736:3)
+    at SyncWriteStream._write (internal/fs/sync_write_stream.js:24:3)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at SyncWriteStream.Writable.write (internal/streams/writable.js:303:10)
+    at Console.log (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js:82:19)
+    at doWrite (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at Console.Writable.write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.ondata (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20) {"date":"Thu Feb 24 2022 18:48:18 GMT+0530 (India Standard Time)","error":{"code":"EIO","errno":-5,"syscall":"write"},"exception":true,"os":{"loadavg":[1.52,1.59,1.62],"uptime":23960.07},"process":{"argv":["node","/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js"],"cwd":"/home/dell/Desktop/nodeProjects/fundooBackend","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19222887,"external":21456803,"heapTotal":81219584,"heapUsed":56845248,"rss":132796416},"pid":51128,"uid":1000,"version":"v14.18.1"},"stack":"Error: EIO: i/o error, write\n    at writeSync (fs.js:736:3)\n    at SyncWriteStream._write (internal/fs/sync_write_stream.js:24:3)\n    at writeOrBuffer (internal/streams/writable.js:358:12)\n    at SyncWriteStream.Writable.write (internal/streams/writable.js:303:10)\n    at Console.log (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js:79:23)\n    at Console._write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js:82:19)\n    at doWrite (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)\n    at writeOrBuffer (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)\n    at Console.Writable.write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:307:11)\n    at DerivedLogger.ondata (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20)","timestamp":"2022-02-24T13:18:18.036Z","trace":[{"column":3,"file":"fs.js","function":"writeSync","line":736,"method":null,"native":false},{"column":3,"file":"internal/fs/sync_write_stream.js","function":"SyncWriteStream._write","line":24,"method":"_write","native":false},{"column":12,"file":"internal/streams/writable.js","function":"writeOrBuffer","line":358,"method":null,"native":false},{"column":10,"file":"internal/streams/writable.js","function":"SyncWriteStream.Writable.write","line":303,"method":"write","native":false},{"column":23,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Thu Feb 24 2022 18:48:18 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-98,"port":4000,"syscall":"listen"},"exception":true,"os":{"loadavg":[1.52,1.59,1.62],"uptime":23960.12},"process":{"argv":["node","/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js"],"cwd":"/home/dell/Desktop/nodeProjects/fundooBackend","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19078675,"external":21311623,"heapTotal":84889600,"heapUsed":55956088,"rss":136929280},"pid":51140,"uid":1000,"version":"v14.18.1"},"stack":"Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n    at listenInCluster (net.js:1379:12)\n    at Server.listen (net.js:1465:7)\n    at Function.listen (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/application.js:618:24)\n    at Object.<anonymous> (/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-02-24T13:18:18.077Z","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1331,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1379,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-02-24T13:18:45.545Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T13:18:45.560Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:14:39)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at addNote (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:11:22) 
+    url - /api/v1/notes/addNote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T13:18:52.648Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:14:39)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at addNote (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:11:22) 
+    url - /api/v1/notes/addNote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T13:18:58.963Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:14:39)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at addNote (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:11:22) 
+    url - /api/v1/notes/addNote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T13:19:14.559Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:14:39)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at addNote (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:11:22) 
+    url - /api/v1/notes/addNote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T13:19:15.271Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:14:39)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at addNote (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:11:22) 
+    url - /api/v1/notes/addNote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T13:19:32.971Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-02-24T13:19:52.023Z"}
+error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (fs.js:736:3)
+    at SyncWriteStream._write (internal/fs/sync_write_stream.js:24:3)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at SyncWriteStream.Writable.write (internal/streams/writable.js:303:10)
+    at Console.log (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js:82:19)
+    at doWrite (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at Console.Writable.write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.ondata (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20) {"date":"Thu Feb 24 2022 18:49:52 GMT+0530 (India Standard Time)","error":{"code":"EIO","errno":-5,"syscall":"write"},"exception":true,"os":{"loadavg":[2.59,1.8,1.69],"uptime":24054.07},"process":{"argv":["node","/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js"],"cwd":"/home/dell/Desktop/nodeProjects/fundooBackend","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19212716,"external":21446632,"heapTotal":81481728,"heapUsed":59159064,"rss":132145152},"pid":52009,"uid":1000,"version":"v14.18.1"},"stack":"Error: EIO: i/o error, write\n    at writeSync (fs.js:736:3)\n    at SyncWriteStream._write (internal/fs/sync_write_stream.js:24:3)\n    at writeOrBuffer (internal/streams/writable.js:358:12)\n    at SyncWriteStream.Writable.write (internal/streams/writable.js:303:10)\n    at Console.log (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js:79:23)\n    at Console._write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js:82:19)\n    at doWrite (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)\n    at writeOrBuffer (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)\n    at Console.Writable.write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:307:11)\n    at DerivedLogger.ondata (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20)","timestamp":"2022-02-24T13:19:52.028Z","trace":[{"column":3,"file":"fs.js","function":"writeSync","line":736,"method":null,"native":false},{"column":3,"file":"internal/fs/sync_write_stream.js","function":"SyncWriteStream._write","line":24,"method":"_write","native":false},{"column":12,"file":"internal/streams/writable.js","function":"writeOrBuffer","line":358,"method":null,"native":false},{"column":10,"file":"internal/streams/writable.js","function":"SyncWriteStream.Writable.write","line":303,"method":"write","native":false},{"column":23,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Thu Feb 24 2022 18:49:52 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-98,"port":4000,"syscall":"listen"},"exception":true,"os":{"loadavg":[2.59,1.8,1.69],"uptime":24054.12},"process":{"argv":["node","/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js"],"cwd":"/home/dell/Desktop/nodeProjects/fundooBackend","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19162198,"external":21395146,"heapTotal":80691200,"heapUsed":58772336,"rss":129212416},"pid":52010,"uid":1000,"version":"v14.18.1"},"stack":"Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n    at listenInCluster (net.js:1379:12)\n    at Server.listen (net.js:1465:7)\n    at Function.listen (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/application.js:618:24)\n    at Object.<anonymous> (/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-02-24T13:19:52.083Z","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1331,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1379,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-02-24T13:20:10.901Z"}
+error: uncaughtException: write EIO
+Error: write EIO
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at WriteStream.Socket._writeGeneric (net.js:798:11)
+    at WriteStream.Socket._write (net.js:810:8)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at WriteStream.Writable.write (internal/streams/writable.js:303:10)
+    at Console.log (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js:82:19)
+    at doWrite (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5) {"date":"Thu Feb 24 2022 18:50:10 GMT+0530 (India Standard Time)","error":{"code":"EIO","errno":-5,"syscall":"write"},"exception":true,"os":{"loadavg":[2.87,1.91,1.73],"uptime":24072.95},"process":{"argv":["node","/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js"],"cwd":"/home/dell/Desktop/nodeProjects/fundooBackend","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18588917,"external":20821865,"heapTotal":81477632,"heapUsed":51541080,"rss":131870720},"pid":52165,"uid":1000,"version":"v14.18.1"},"stack":"Error: write EIO\n    at afterWriteDispatched (internal/stream_base_commons.js:156:25)\n    at writeGeneric (internal/stream_base_commons.js:147:3)\n    at WriteStream.Socket._writeGeneric (net.js:798:11)\n    at WriteStream.Socket._write (net.js:810:8)\n    at writeOrBuffer (internal/streams/writable.js:358:12)\n    at WriteStream.Writable.write (internal/streams/writable.js:303:10)\n    at Console.log (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js:79:23)\n    at Console._write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js:82:19)\n    at doWrite (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)\n    at writeOrBuffer (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)","timestamp":"2022-02-24T13:20:10.907Z","trace":[{"column":25,"file":"internal/stream_base_commons.js","function":"afterWriteDispatched","line":156,"method":null,"native":false},{"column":3,"file":"internal/stream_base_commons.js","function":"writeGeneric","line":147,"method":null,"native":false},{"column":11,"file":"net.js","function":"WriteStream.Socket._writeGeneric","line":798,"method":"_writeGeneric","native":false},{"column":8,"file":"net.js","function":"WriteStream.Socket._write","line":810,"method":"_write","native":false},{"column":12,"file":"internal/streams/writable.js","function":"writeOrBuffer","line":358,"method":null,"native":false},{"column":10,"file":"internal/streams/writable.js","function":"WriteStream.Writable.write","line":303,"method":"write","native":false},{"column":23,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-02-24T13:20:36.926Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T13:20:36.940Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-02-24T13:34:43.100Z"}
+error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (fs.js:736:3)
+    at SyncWriteStream._write (internal/fs/sync_write_stream.js:24:3)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at SyncWriteStream.Writable.write (internal/streams/writable.js:303:10)
+    at Console.log (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js:82:19)
+    at doWrite (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at Console.Writable.write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.ondata (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20) {"date":"Thu Feb 24 2022 19:04:43 GMT+0530 (India Standard Time)","error":{"code":"EIO","errno":-5,"syscall":"write"},"exception":true,"os":{"loadavg":[0.68,0.51,1],"uptime":24945.14},"process":{"argv":["node","/home/dell/Desktop/nodeProjects/fundooBackend/src/index.js"],"cwd":"/home/dell/Desktop/nodeProjects/fundooBackend","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19209310,"external":21443226,"heapTotal":81215488,"heapUsed":59422544,"rss":129556480},"pid":53535,"uid":1000,"version":"v14.18.1"},"stack":"Error: EIO: i/o error, write\n    at writeSync (fs.js:736:3)\n    at SyncWriteStream._write (internal/fs/sync_write_stream.js:24:3)\n    at writeOrBuffer (internal/streams/writable.js:358:12)\n    at SyncWriteStream.Writable.write (internal/streams/writable.js:303:10)\n    at Console.log (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js:79:23)\n    at Console._write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js:82:19)\n    at doWrite (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)\n    at writeOrBuffer (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)\n    at Console.Writable.write (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:307:11)\n    at DerivedLogger.ondata (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20)","timestamp":"2022-02-24T13:34:43.104Z","trace":[{"column":3,"file":"fs.js","function":"writeSync","line":736,"method":null,"native":false},{"column":3,"file":"internal/fs/sync_write_stream.js","function":"SyncWriteStream._write","line":24,"method":"_write","native":false},{"column":12,"file":"internal/streams/writable.js","function":"writeOrBuffer","line":358,"method":null,"native":false},{"column":10,"file":"internal/streams/writable.js","function":"SyncWriteStream.Writable.write","line":303,"method":"write","native":false},{"column":23,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/lib/winston/transports/console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-02-25T03:01:06.946Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T03:01:06.963Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T04:14:07.971Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T04:14:07.989Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee2$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:35:67)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at getAllNotes (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:33:26) 
+    url - /api/v1/notes/getAllNotes 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-25T04:28:42.662Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T04:30:01.290Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T04:30:01.306Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T04:31:11.430Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T04:31:11.451Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T04:47:34.751Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T04:47:34.765Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T05:02:39.624Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T05:02:39.635Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T05:05:56.167Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T05:05:56.184Z"}
+error: 
+    status - 500 
+    message - TypeError: notedata.findByIdAndUpdate is not a function
+    at _callee3$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/services/note.service.js:26:32)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes/updateNote 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-25T05:07:28.674Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T05:08:59.381Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T05:08:59.394Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T10:02:41.613Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T10:02:41.628Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T10:02:43.539Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T10:02:43.557Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T10:04:38.913Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T10:04:38.933Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T10:05:56.191Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T10:05:56.203Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T10:07:08.296Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T10:07:08.312Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes/updateNote 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-25T10:07:24.428Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T10:09:01.366Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T10:09:01.379Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T10:12:46.606Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T10:12:46.619Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T10:13:47.886Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T10:13:47.901Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T10:15:28.695Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T10:15:28.713Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T10:18:04.650Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T10:18:04.666Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T10:18:26.085Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T10:18:26.103Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T10:22:37.780Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T10:22:37.793Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T10:23:34.258Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T10:23:34.272Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot create property 'select' on string '621775ce20621aa04d740ab1'
+    at Function.Model.findOneAndDelete (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/model.js:2797:20)
+    at Function.findByIdAndDelete (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/model.js:2836:15)
+    at _callee7$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/services/note.service.js:88:29)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>) 
+    url - /api/v1/notes/deleteNote 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-25T10:25:31.949Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T10:27:56.767Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T10:27:56.781Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot create property 'select' on string '621775ce20621aa04d740ab1'
+    at Function.Model.findOneAndDelete (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/model.js:2797:20)
+    at Function.findByIdAndDelete (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/model.js:2836:15)
+    at _callee7$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/services/note.service.js:88:29)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>) 
+    url - /api/v1/notes/deleteNote 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-25T10:28:32.449Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T10:46:41.939Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T10:46:41.951Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot create property 'select' on string '621775ce20621aa04d740ab1'
+    at Function.Model.findOneAndDelete (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/model.js:2797:20)
+    at Function.findByIdAndDelete (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/model.js:2836:15)
+    at _callee7$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/services/note.service.js:88:29)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>) 
+    url - /api/v1/notes/deleteNote 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-25T10:46:45.554Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T10:47:32.209Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T10:47:32.231Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T11:28:12.408Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T11:28:12.426Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot create property 'select' on string '621775ce20621aa04d740ab1'
+    at Function.findOneAndDelete (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/model.js:2797:20)
+    at _callee7$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/services/note.service.js:88:29)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12) 
+    url - /api/v1/notes/deleteNote 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-25T11:28:20.320Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T11:29:05.425Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T11:29:05.442Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T11:34:39.402Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T11:34:39.425Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T11:36:14.035Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T11:36:14.054Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T11:36:33.967Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T11:36:33.984Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee4$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/services/note.service.js:41:43)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12)
+    at Object.getNoteService (/home/dell/Desktop/nodeProjects/fundooBackend/src/services/note.service.js:40:28) 
+    url - /api/v1/notes/getNote/:_noteId?_noteId=62185fa7de3e24507588af30 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-25T11:38:19.754Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T11:39:28.526Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T11:39:28.543Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T11:40:12.223Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T11:40:12.238Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T11:41:19.577Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T11:41:19.592Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T11:48:50.700Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T11:48:50.717Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T11:49:41.640Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T11:49:41.658Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T13:02:06.653Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:02:06.671Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T13:02:19.157Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:02:19.174Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T13:02:23.932Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:02:23.945Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee8$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:171:67)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at getTrashNotesList (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:169:34) 
+    url - /api/v1/notes/getTrashNotes 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-25T13:03:07.585Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T13:07:26.660Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:07:26.674Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee8$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:171:67)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at getTrashNotesList (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:169:34) 
+    url - /api/v1/notes/getTrashNotes 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-25T13:07:44.835Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee9$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:191:69)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at getArchiveNotesList (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:189:37) 
+    url - /api/v1/notes/getArchiveNotes 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-25T13:08:46.086Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T13:21:28.059Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:21:28.072Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T13:24:17.335Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:24:17.348Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T13:27:36.327Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:27:36.341Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T13:29:11.636Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:29:11.648Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T13:29:21.843Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:29:21.855Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T13:30:59.760Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:30:59.773Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee9$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:191:66)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at getArchiveNotesList (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:189:33) 
+    url - /api/v1/notes/getArchiveNotes 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-25T13:31:44.527Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T13:32:07.222Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:32:07.234Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee10$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:211:66)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at colorNotes (/home/dell/Desktop/nodeProjects/fundooBackend/src/controllers/note.controller.js:209:24) 
+    url - /api/v1/notes/colorNotes 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-25T13:32:53.156Z"}
+error: 
+    status - 500 
+    message - Error: Callback must be a function, got [object Object]
+    at new MongooseError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at Function.Model.$handleCallbackError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/model.js:5067:11)
+    at Function.findByIdAndUpdate (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/model.js:2694:19)
+    at _callee10$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/services/note.service.js:113:29)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24) 
+    url - /api/v1/notes/colorNotes 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-25T13:34:04.935Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T13:38:42.231Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:38:42.244Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T13:39:10.756Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:39:10.773Z"}
+error: 
+    status - 500 
+    message - Error: Callback must be a function, got [object Object]
+    at new MongooseError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at Function.Model.$handleCallbackError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/model.js:5067:11)
+    at Function.findByIdAndUpdate (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/model.js:2694:19)
+    at _callee10$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/services/note.service.js:113:29)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24) 
+    url - /api/v1/notes/colorNotes 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-25T13:39:16.291Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T13:40:49.412Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:40:49.424Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T13:41:03.921Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:41:03.934Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T13:42:07.103Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:42:07.116Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T13:47:13.803Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:47:13.815Z"}
+error: 
+      status - 9
+      message - Unknown modifier: $addFields. Expected a valid update modifier or pipeline-style update specified as an array 
+      url - /api/v1/notes/colorNotes 
+      method - PUT 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-25T13:47:18.892Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 9
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/response.js:267:15)
+    at appErrorHandler (/home/dell/Desktop/nodeProjects/fundooBackend/src/middlewares/error.middleware.js:36:26)
+    at Layer.handle_error (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/layer.js:71:5) 
+    url - /api/v1/notes/colorNotes 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-25T13:47:18.897Z"}
+error: 
+      status - 9
+      message - Unknown modifier: $addFields. Expected a valid update modifier or pipeline-style update specified as an array 
+      url - /api/v1/notes/colorNotes 
+      method - PUT 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-25T13:47:21.848Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 9
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/response.js:267:15)
+    at appErrorHandler (/home/dell/Desktop/nodeProjects/fundooBackend/src/middlewares/error.middleware.js:36:26)
+    at Layer.handle_error (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/express/lib/router/layer.js:71:5) 
+    url - /api/v1/notes/colorNotes 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-25T13:47:21.850Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T13:50:14.063Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:50:14.076Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T13:50:32.166Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:50:32.179Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T13:52:02.811Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:52:02.824Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T13:55:44.488Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:55:44.501Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T13:57:19.160Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:57:19.178Z"}
+error: 
+    status - 500 
+    message - Error: Callback must be a function, got [object Object]
+    at new MongooseError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at Function.Model.$handleCallbackError (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/model.js:5067:11)
+    at Function.findByIdAndUpdate (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/mongoose/lib/model.js:2694:19)
+    at _callee10$ (/home/dell/Desktop/nodeProjects/fundooBackend/src/services/note.service.js:113:29)
+    at tryCatch (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/dell/Desktop/nodeProjects/fundooBackend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24) 
+    url - /api/v1/notes/colorNotes 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-25T13:57:40.368Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T13:58:56.540Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:58:56.555Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T13:59:45.018Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:59:45.036Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-25T13:59:48.697Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:59:48.712Z"}
