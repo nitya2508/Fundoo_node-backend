@@ -112,7 +112,7 @@ export const colorNotesService = async (body) => {
     console.log("note data ++++", body);
     const data = await Note.findByIdAndUpdate(
         {
-            _id, UserId
+            _id:body.noteId, UserId:body.data.id
         },
         {
             $set:
